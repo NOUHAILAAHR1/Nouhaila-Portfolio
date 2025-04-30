@@ -29,13 +29,13 @@ if(navClose){
     console.error("navClose button not found");
 }
 
-/*download cv*/
+
 document.getElementById("downloadBtn").addEventListener("click", function() {
     alert("Le CV a été téléchargé.");
 });
-/* mail botton */ 
+
 document.getElementById("gmailButton").addEventListener("click", function() {
-    const email = "nouhailaahran@gmail.com";
+    const email = "nouhailahrram@gmail.com";
     const subject = "Sujet de l'email";
     const body = "Rédigez votre message";
 

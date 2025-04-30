@@ -49,8 +49,6 @@ document.getElementById("gmailButton").addEventListener("click", function() {
 
 
 
-
-/*Work Popup */
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("work__button")) {
        
@@ -69,7 +67,7 @@ function portfolioItemDetails(portfolioItem){
     document.querySelector(".portfolio__popup-subtitle span").innerHTML = portfolioItem.querySelector(".work__title").innerHTML
     document.querySelector(".portfolio__popup-body").innerHTML = portfolioItem.querySelector(".portfolio__item-details").innerHTML
 }
-/*Scroll section*/
+
 
 const sections = document.querySelectorAll("section[id]");
 
